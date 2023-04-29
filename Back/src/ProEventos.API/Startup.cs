@@ -166,8 +166,8 @@ namespace ProEventos.API
 
             app.UseStaticFiles(new StaticFileOptions()
             {
-                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Resources")),
-                RequestPath = new PathString("/Resources")
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Recursos")),
+                RequestPath = new PathString("/Recursos")
             });
 
             app.UseEndpoints(endpoints =>
