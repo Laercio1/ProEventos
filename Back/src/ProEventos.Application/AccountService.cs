@@ -124,7 +124,7 @@ namespace ProEventos.Application
             }
             catch (System.Exception ex)
             {
-                throw new Exception($"Erro ao verificar se usuário existe. Erro: {ex.Message}");
+                throw new Exception($"Erro ao verificar se usuário existe! Erro: {ex.Message}");
             }
         }
     }

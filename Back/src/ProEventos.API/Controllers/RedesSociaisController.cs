@@ -55,7 +55,7 @@ namespace ProEventos.API.Controllers
             catch (Exception ex)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError,
-                    $"Erro ao tentar recuperar Rede Social por Evento. Erro: {ex.Message}");
+                    $"Erro ao tentar recuperar Rede Social por Evento! Erro: {ex.Message}");
             }
         }
 

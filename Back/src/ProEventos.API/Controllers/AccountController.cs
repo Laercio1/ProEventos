@@ -243,7 +243,7 @@ namespace ProEventos.API.Controllers
             catch (Exception ex)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError,
-                    $"Erro ao tentar realizar upload de Foto do Usuário. Erro: {ex.Message}");
+                    $"Erro ao tentar realizar upload de Foto do Usuário! Erro: {ex.Message}");
             }
         }
     }

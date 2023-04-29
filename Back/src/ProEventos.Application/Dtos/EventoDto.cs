@@ -16,7 +16,6 @@ namespace ProEventos.Application.Dtos
                           ErrorMessage = "Intervalo permitido de 3 a 50 caracteres.")]
         public string Tema { get; set; }
 
-
         [Display(Name = "Qtd Pessoas")]
         [Range(1, 120000, ErrorMessage = "{0} não pode ser menor que 1 e maior que 120.000")]
         public int QtdPessoas { get; set; }
